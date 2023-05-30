@@ -1,0 +1,27 @@
+.nav{
+  background-color:rgb(169, 158, 143) ;
+  text-align: center;
+  justify-content: center;
+
+}
+.container1 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(129, 120, 107) ;
+  padding: 20px 500px;
+  border-radius: 10px;
+}
+.heading {
+  margin-top: 10px;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.box {
+  margin: 5px auto;
+}

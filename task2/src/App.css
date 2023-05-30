@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(169, 158, 143);
+}
+nav{
+  background-color: rgb(169, 158, 143);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+.grid-content {
+  background-color: rgb(104, 98, 98);
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  color: rgb(225, 213, 213);
+}

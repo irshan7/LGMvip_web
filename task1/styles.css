@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+
+* {
+  font-family: "Dongle", Arial;
+  background-color: #384e53;
+  color: #fff;
+
+  font-weight: 300;
+  font-size: 20px;
+}
+h1 {
+  font-family: "Tilt Prism";
+}
+.container {
+  margin-top: 20px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wrapper {
+  min-width: 350px;
+  margin: 30px auto;
+  flex: 1;
+  height: 60vh;
+  width: 30vw;
+  box-shadow: 5px 5px 3px 3px #092041;
+  background-color: #152e5c;
+  border-radius: 10px;
+}
+#task {
+  border-radius: 10px;
+  min-width: 100%;
+  background-color: #152e5c;
+  padding: 10px;
+}
+#result {
+  flex: 1;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
+  background-color: #152e5c;
+}
+ul {
+  background-color: #152e5c;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #152e5c;
+  align-items: center;
+  text-decoration-color: aqua;
+}
+
+.left {
+  margin-right: auto;
+  background-color: #152e5c;
+  font-size: 1.3rem;
+}
+.right {
+  background-color: #152e5c;
+}
+
+i {
+  background-color: #152e5c;
+  color: rgb(30, 186, 248);
+  width: 20px;
+  height: 20px;
+}
+
+i:hover {
+  color: white;
+}
+.checked {
+  text-decoration: line-through;
+  text-decoration-color: #fc2947;
+}
